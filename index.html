@@ -49,11 +49,16 @@
           <li class="contacts__item">
             <a href="mailto:info@devstudio.com" class="contacts__link">
               <svg class="contacts__icon" width="16px" height="12px">
-                <use href="./images/svg-sprite.svg#icon-envelope"></use></svg>info@devstudio.com</a>
+                <use href="./images/svg-sprite.svg#icon-envelope"></use></svg
+              >info@devstudio.com</a
+            >
+          </li>
+
           <li class="contacts__item">
             <a href="tel:+380961111111" class="contacts__link"
               ><svg class="contacts__icon" width="10px" height="16px">
-                <use href="./images/svg-sprite.svg#icon-smartphone"></use></svg>+38 096 111 11 11</a
+                <use href="./images/svg-sprite.svg#icon-smartphone"></use></svg
+              >+38 096 111 11 11</a
             >
           </li>
         </ul>
@@ -82,86 +87,82 @@
               <use href="./images/svg-sprite.svg#icon-close"></use>
             </svg>
           </button>
-            <p class="modal__title">
-              Оставьте свои данные, мы вам перезвоним
-            </p>
-            <form class="modal__customer-form">
-              <ul>
-                <li class="modal__form-labels">
-                  <label class="modal__field-label" for="name">Имя</label>
-                  <div class="modal__field">
-                    <input
-                      class="modal__form-input"
-                      type="text"
-                      name="fullName"
-                      id="name"
-                    />
-                    <svg class="modal__field-icon" width="18px" height="18px">
-                      <use href="./images/svg-sprite.svg#icon-person"></use>
-                    </svg>
-                  </div>
-                </li>
-                <li class="modal__form-labels">
-                  <label class="modal__field-label" for="tel">Телефон</label>
-                  <div class="modal__field">
-                    <input
-                      class="modal__form-input"
-                      type="tel"
-                      name="tel"
-                      id="tel"
-                    />
-                    <svg class="modal__field-icon" width="18px" height="18px">
-                      <use href="./images/svg-sprite.svg#icon-phone"></use>
-                    </svg>
-                  </div>
-                </li>
-                <li class="modal__form-labels">
-                  <label class="modal__field-label" for="email">Почта</label>
-                  <div class="modal__field">
-                    <input
-                      class="modal__form-input"
-                      type="email"
-                      name="email"
-                      id="email"
-                    />
-                    <svg class="modal__field-icon" width="18px" height="18px">
-                      <use href="./images/svg-sprite.svg#icon-email"></use>
-                    </svg>
-                  </div>
-                </li>
-                <li>
-                  <label class="modal__field-label" for="comment"
-                    >Комментарий</label
-                  >
-                  <textarea
-                    class="modal__form-input modal__form-textarea"
-                    name="comment"
-                    id="comment"
-                    rows="4"
-                    placeholder="Введите текст"
-                  ></textarea>
-                </li>
-                <li>
-                  <label class="modal__checkbox-label"
-                    ><input
-                      class="modal__checkbox"
-                      type="checkbox"
-                      name="policy"
-                    /><span class="modal__checkbox-icon"></span>Соглашаюсь с
-                    рассылкой и принимаю &nbsp;<a
-                      class="modal__privacy-policy"
-                      href="#"
-                      >Условия договора</a
-                    ></label
-                  >
-                </li>
-              </ul>
-                <button class="modal__button-submit" type="submit">
-                  Отправить
-                </button>
-              </div>
-            </form>
-          </div>
+          <p class="modal__title">Оставьте свои данные, мы вам перезвоним</p>
+          <form class="modal__customer-form">
+            <ul>
+              <li class="modal__form-labels">
+                <label class="modal__field-label" for="name">Имя</label>
+                <div class="modal__field">
+                  <input
+                    class="modal__form-input"
+                    type="text"
+                    name="fullName"
+                    id="name"
+                  />
+                  <svg class="modal__field-icon" width="18px" height="18px">
+                    <use href="./images/svg-sprite.svg#icon-person"></use>
+                  </svg>
+                </div>
+              </li>
+              <li class="modal__form-labels">
+                <label class="modal__field-label" for="tel">Телефон</label>
+                <div class="modal__field">
+                  <input
+                    class="modal__form-input"
+                    type="tel"
+                    name="tel"
+                    id="tel"
+                  />
+                  <svg class="modal__field-icon" width="18px" height="18px">
+                    <use href="./images/svg-sprite.svg#icon-phone"></use>
+                  </svg>
+                </div>
+              </li>
+              <li class="modal__form-labels">
+                <label class="modal__field-label" for="email">Почта</label>
+                <div class="modal__field">
+                  <input
+                    class="modal__form-input"
+                    type="email"
+                    name="email"
+                    id="email"
+                  />
+                  <svg class="modal__field-icon" width="18px" height="18px">
+                    <use href="./images/svg-sprite.svg#icon-email"></use>
+                  </svg>
+                </div>
+              </li>
+              <li>
+                <label class="modal__field-label" for="comment"
+                  >Комментарий</label
+                >
+                <textarea
+                  class="modal__form-input modal__form-textarea"
+                  name="comment"
+                  id="comment"
+                  rows="4"
+                  placeholder="Введите текст"
+                ></textarea>
+              </li>
+              <li>
+                <label class="modal__checkbox-label"
+                  ><input
+                    class="modal__checkbox"
+                    type="checkbox"
+                    name="policy"
+                  /><span class="modal__checkbox-icon"></span>Соглашаюсь с
+                  рассылкой и принимаю &nbsp;<a
+                    class="modal__privacy-policy"
+                    href="#"
+                    >Условия договора</a
+                  ></label
+                >
+              </li>
+            </ul>
+            <button class="modal__button-submit" type="submit">
+              Отправить
+            </button>
+          </form>
         </div>
       </div>
       <!--Advantages-->
@@ -496,7 +497,8 @@
                     ><svg class="contacts__icon" width="16px" height="12px">
                       <use
                         href="./images/svg-sprite.svg#icon-envelope"
-                      ></use></svg>info@devstudio.com</a
+                      ></use></svg
+                    >info@devstudio.com</a
                   >
                 </li>
                 <li class="address__item">
@@ -504,7 +506,9 @@
                     ><svg class="contacts__icon" width="10px" height="16px">
                       <use
                         href="./images/svg-sprite.svg#icon-smartphone"
-                      ></use></svg>+38 096 111 11 11</a>
+                      ></use></svg
+                    >+38 096 111 11 11</a
+                  >
                 </li>
               </ul>
             </address>
