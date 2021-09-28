@@ -29,25 +29,25 @@
   max-width: 100%;
   height: auto;
 }
-.option-title {
+.options__title {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: $mainColor;
 }
-.option-text {
+.options__text {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;
 }
 
-.option-thumb {
+.options__thumb {
   position: relative;
   overflow: hidden;
 }
-.option-overlay {
+.options__overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -59,17 +59,17 @@
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
     opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.options__item:hover .option-overlay {
+.options__item:hover .options__overlay {
   opacity: 1;
   transform: translateY(0);
 }
 .option-text {
   color: $primaryTextColor;
 }
-.options-description-wrapper {
+.options__description-wrapper {
   padding: 20px 24px;
 }
-.option-description-text {
+.options__description-text {
   font-size: 18px;
   line-height: 1.5;
   letter-spacing: 0.03em;
@@ -77,14 +77,14 @@
   color: $secondaryColor;
 }
 
-.option-detailed-description {
+.options__detailed-description {
   position: absolute;
   top: 0;
   left: 0;
   opacity: 0;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.options__item:hover .option-detailed-description {
+.options__item:hover .options__detailed-description {
   opacity: 1;
 }
 .work {
